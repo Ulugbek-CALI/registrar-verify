@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academic Credential Verification | California State University, Fullerton</title>
+    <title>Credential Verification | California State University, Fullerton</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
@@ -13,70 +13,102 @@
     </style>
 </head>
 <body>
+
     <!-- Header -->
     <div class="csuf-navy text-white py-4 px-6 border-b-4 border-[#ff8200] shadow-xl">
         <div class="max-w-5xl mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-4">
-                <img src="seal.jpg" alt="CSUF Seal" class="h-16 w-16 bg-white rounded-full p-1 border border-gray-200">
+                <img src="seal.jpg" alt="CSUF Seal" class="h-16 w-16 bg-white rounded-full p-1 border border-gray-200 shadow-sm">
                 <div>
-                    <h1 class="text-2xl font-black tracking-tighter uppercase">California State University</h1>
-                    <p class="text-sm font-bold tracking-widest text-[#ff8200]">OFFICE OF THE REGISTRAR | VERIFICATION SERVICES</p>
+                    <h1 class="text-xl md:text-2xl font-black tracking-tighter uppercase leading-none">California State University, Fullerton</h1>
+                    <p class="text-[10px] md:text-xs font-bold tracking-[0.2em] text-[#ff8200] mt-1">OFFICE OF THE REGISTRAR | SECURE VERIFICATION PORTAL</p>
                 </div>
             </div>
-            <div class="hidden md:block text-right">
-                <p class="text-[10px] uppercase tracking-widest opacity-60">Secure SSL Verification</p>
-                <p class="text-xs font-mono">ID: 892103342</p>
+            <div class="hidden lg:block text-right">
+                <p class="text-[10px] uppercase tracking-widest opacity-60">Digital Certificate Node</p>
+                <p class="text-xs font-mono">STATUS: ACTIVE</p>
             </div>
         </div>
     </div>
 
     <main class="max-w-4xl mx-auto mt-10 px-4 mb-20">
         <div class="bg-white rounded-lg shadow-2xl overflow-hidden border border-gray-200">
+            
+            <!-- Global Status Bar -->
             <div class="bg-green-600 text-white px-6 py-3 flex items-center justify-between">
                 <div class="flex items-center space-x-2">
                     <span class="h-3 w-3 bg-white rounded-full animate-pulse"></span>
                     <span class="font-black uppercase tracking-widest text-sm italic">Authenticity Confirmed</span>
                 </div>
-                <span class="font-mono text-xs opacity-80 underline">Transaction ID: CSUF-892103342</span>
+                <span class="font-mono text-xs opacity-80">REF: CSUF-UZ-892103342</span>
             </div>
 
             <div class="p-8">
+                <!-- Primary Identity Block -->
                 <div class="flex flex-col md:flex-row items-center gap-10">
                     <div class="relative group">
                         <div class="absolute -inset-1 bg-gradient-to-r from-[#00274c] to-[#ff8200] rounded-lg blur opacity-25"></div>
-                        <img src="Profile.jpg" alt="Ulugbek Yusufjanov" class="relative w-44 h-56 object-cover rounded-lg border-2 border-white shadow-md">
+                        <img src="Profile.jpg" alt="Ulugbek Yusufjanov" class="relative w-44 h-56 object-cover rounded-lg border-2 border-white shadow-lg">
                     </div>
+                    
                     <div class="text-center md:text-left flex-1">
-                        <h2 class="text-4xl font-black text-[#00274c] leading-tight">YUSUFJANOV, ULUGBEK</h2>
-                        <p class="text-xl text-gray-500 font-medium italic mt-1 uppercase">Bachelor of Arts (Accounting)</p>
-                        <div class="mt-6 grid grid-cols-2 gap-4">
-                            <div class="bg-gray-50 p-3 rounded border-l-4 border-[#ff8200]">
-                                <p class="text-[10px] uppercase text-gray-400 font-bold">Status</p>
+                        <h2 class="text-3xl md:text-4xl font-black text-[#00274c] leading-tight tracking-tight uppercase">
+                            YUSUFJANOV,<br>Ulugbek Shukhrat Ugli
+                        </h2>
+                        <p class="text-xl text-gray-500 font-medium italic mt-2 uppercase tracking-tight">Bachelor of Arts (Accounting)</p>
+                        
+                        <div class="mt-8 grid grid-cols-2 gap-4">
+                            <div class="bg-gray-50 p-4 rounded border-l-4 border-[#ff8200] shadow-sm">
+                                <p class="text-[10px] uppercase text-gray-400 font-bold tracking-widest">Academic Status</p>
                                 <p class="text-sm font-black text-gray-700 uppercase">Degree Conferred</p>
                             </div>
-                            <div class="bg-gray-50 p-3 rounded border-l-4 border-[#00274c]">
-                                <p class="text-[10px] uppercase text-gray-400 font-bold">Student Number</p>
+                            <div class="bg-gray-50 p-4 rounded border-l-4 border-[#00274c] shadow-sm">
+                                <p class="text-[10px] uppercase text-gray-400 font-bold tracking-widest">Student Number</p>
                                 <p class="text-sm font-black text-gray-700 italic">892103342</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="mt-12">
-                    <h3 class="text-xs font-black text-gray-400 uppercase tracking-[0.3em] mb-6 border-b pb-2 italic">Institutional Cryptographic Proofs</h3>
+                <!-- Verification Assets Section -->
+                <div class="mt-14">
+                    <div class="flex items-center justify-between mb-6 border-b pb-2">
+                        <h3 class="text-xs font-black text-gray-400 uppercase tracking-[0.3em] italic">Institutional Cryptographic Proofs</h3>
+                        <span class="text-[10px] font-mono text-green-600 font-bold uppercase">SSL Secured</span>
+                    </div>
+                    
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        <a href="Official_Transcript_Complete.pdf" target="_blank" class="flex items-center p-4 bg-[#f8fafc] border border-gray-100 rounded-xl hover:shadow-lg hover:border-[#ff8200] transition">
-                            <div class="h-10 w-10 csuf-navy flex items-center justify-center rounded-lg text-white mr-4">PDF</div>
-                            <p class="text-sm font-black text-gray-800 uppercase">Official Transcript</p>
+                        <!-- Transcript Button -->
+                        <a href="Official_Transcript_Complete.pdf" target="_blank" class="flex items-center p-5 bg-[#f8fafc] border border-gray-100 rounded-xl hover:shadow-xl hover:border-[#ff8200] transition-all duration-300 group">
+                            <div class="h-12 w-12 csuf-navy flex items-center justify-center rounded-lg text-white mr-4 shadow-md group-hover:scale-110 transition-transform">PDF</div>
+                            <div>
+                                <p class="text-sm font-black text-gray-800 uppercase leading-none">Official Transcript</p>
+                                <p class="text-[10px] text-gray-400 font-bold mt-1 uppercase tracking-tighter">CSU Registrar Validated</p>
+                            </div>
                         </a>
-                        <a href="Diploma.jpg" target="_blank" class="flex items-center p-4 bg-[#f8fafc] border border-gray-100 rounded-xl hover:shadow-lg hover:border-[#ff8200] transition">
-                            <div class="h-10 w-10 csuf-orange flex items-center justify-center rounded-lg text-white mr-4">IMG</div>
-                            <p class="text-sm font-black text-gray-800 uppercase">Bachelor's Diploma</p>
+
+                        <!-- Diploma Button -->
+                        <a href="Diploma.jpg" target="_blank" class="flex items-center p-5 bg-[#f8fafc] border border-gray-100 rounded-xl hover:shadow-xl hover:border-[#ff8200] transition-all duration-300 group">
+                            <div class="h-12 w-12 csuf-orange flex items-center justify-center rounded-lg text-white mr-4 shadow-md group-hover:scale-110 transition-transform">IMG</div>
+                            <div>
+                                <p class="text-sm font-black text-gray-800 uppercase leading-none">Bachelor's Diploma</p>
+                                <p class="text-[10px] text-gray-400 font-bold mt-1 uppercase tracking-tighter">Conferred June 15, 2025</p>
+                            </div>
                         </a>
                     </div>
                 </div>
             </div>
+
+            <!-- Footer Compliance -->
+            <div class="bg-gray-100 p-6 border-t border-gray-200">
+                <p class="text-[9px] font-mono text-gray-400 leading-relaxed uppercase text-center">
+                    This is an independently hosted verification cabinet. For official academic verification or legal inquiries, please contact the California State University, Fullerton Office of the Registrar. Any unauthorized reproduction of this record is prohibited by institutional policy.
+                </p>
+            </div>
         </div>
+        
+        <p class="text-center text-[10px] mt-8 font-bold uppercase tracking-[0.25em] text-gray-400">© 2026 CSU Fullerton Registrar - Digital Asset Node</p>
     </main>
+
 </body>
 </html>
